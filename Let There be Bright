@@ -1,0 +1,7 @@
+import screen_brightness_control as sbc
+
+print(sbc.get_brightness())
+
+your_brightness=int(input("brightness:"))
+
+sbc.set_brightness(your_brightness,display=0)
